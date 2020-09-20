@@ -76,7 +76,6 @@ public class Tintegradora {
     }
     public static double[] Mejorprecio(double hCenter[], double fBarrio[], double fCentro[], String Arreglo[]){
         double[] Mvalor = new double[hCenter.length];
-        String[] lugar = new String[Arreglo.length];
         for (int i = 0; i < hCenter.length; i++) {
             if(hCenter[i]<fCentro[i] && hCenter[i]<fBarrio[i]){
                 Mvalor[i] = hCenter[i];
